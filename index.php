@@ -1,3 +1,3 @@
 <?php
-echo smiec;
+echo "smiec";
 >
