@@ -1,6 +1,8 @@
 <?php
 echo readfile("potwier.html");
 mkdir("apps/".$_GET["usr"]);
+echo($_GET["usr"]);
+echo($_GET["usrold"]);
 echo("<h1>20%</h1>");
 copy("whattoinsert.html", "apps/".$_GET["usr"]."/index.html");
 echo("<h1>60%</h1>");
