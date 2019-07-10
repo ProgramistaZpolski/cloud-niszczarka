@@ -1,4 +1,6 @@
 <?php
+echo($_GET["usr"]);
+echo($_GET["usrold"]);
 echo readfile("potwier.html");
 mkdir("apps/".$_GET["usr"]);
 echo($_GET["usr"]);
