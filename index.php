@@ -1,4 +1,4 @@
 <?php
 echo "hello?";
-echo readfile("/index.html");
+echo readfile("https://cloud-niszczarka.herokuapp.com/index.html");
 ?>
