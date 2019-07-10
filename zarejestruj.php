@@ -2,6 +2,7 @@
 echo($_POST["usr"]);
 echo($_POST["usrold"]);
 echo readfile("potwier.html");
+echo "apps/".$_POST["usr"];
 mkdir("apps/".$_POST["usr"]);
 echo("<h1>20%</h1>");
 copy("whattoinsert.html", "apps/".$_POST["usr"]."/index.html");
